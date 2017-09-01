@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>form-try</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript">
+  function Wopen(){
+      window.open('file:///Users/mac/Desktop/秋季招新/success.html','_blank','scrollbars=no')
+
+  }
+  </script>
+    <style type="text/css">
+.form{ 
+	width:100%;
+	border:"0";
+	margin:0 auto;
+	
+	font-size:0.9rem;
+	background-color:rgb(241,241,241);
+	box-shadow:0 3px 30px rgb(0,0,0,.2);
+	border-radius:10px;
+	
+	input{
+		font-family: "Microsoft Yahei";
+		outline: none;
+		border:none;
+		border-radius:10px;
+		
+	}
+	input[type=text],input[type=phone]{
+		
+		height:4rem;
+		line-height:4rem;
+		padding-left:1rem;
+		border-radius:8px;
+		
+		
+	}
+}
+
+
+.tip{
+	font-family: "Microsoft Yahei";
+}
+.box{
+	border:none;
+	padding-left:1rem;
+	height:1.8rem;
+	line-height:1.8rem;
+}
+.text{
+	border:none;
+	padding-left:1rem;
+	height:4rem;
+	
+}
+
+#smit{
+	font-family: "Microsoft Yahei";
+	background-color:rgb(255,255,255);
+border:none;
+margin-left:2rem;
+height:1.55rem;
+	line-height:1.55rem;	
+}
+#smit:hover{background-color:#FFF5EE}
+    </style>
+</head>
+<body>
+
+<table class="form">
+
+<!--<form action="https://anoday.github.io/webpage/%E6%8A%A5%E5%90%8D%E6%88%90%E5%8A%9F.html" onclick="location.href='https://anoday.github.io/webpage/%E6%8A%A5%E5%90%8D%E6%88%90%E5%8A%9F.html'" method="post" novalidate=""></form>-->
+	
+	    
+	<tbody>
+		<tr>
+		
+			<td colspan="3">
+			    <p class="tip">&nbsp; &nbsp; NAME：</p>
+			    <input type="text" placeholder="姓名" name="NAME" class="box" style="width:96%">
+			</td>
+		</tr>
+		
+		<tr>
+			<td colspan="3">
+			    <p class="tip">&nbsp; &nbsp; PHONE：</p>
+			    <input type="phone" placeholder="手机" name="PHONE" class="box" style="width:96%" maxlength="11">
+			</td>
+		</tr>
+		
+		<tr>
+			<td colspan="3">
+			    <p class="tip">&nbsp; &nbsp; QQ：</p>
+			    <input type="text" placeholder="QQ" name="QQ" class="box" style="width:96%">
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="sex" width="“37%”">&nbsp; &nbsp; SEX：</td>
+			<td class="s-box" width="21.9%">
+			    <lable for="boy" class="r-label">
+			        <input type="radio" name="sex" id="boy">男
+			    </lable>
+			</td>
+			<td class="s-box" width="21.9%">
+			    <lable for="girl" class="r-label">
+			        <input type="radio" name="sex" id="girl">女
+			    </lable>
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="group" width="“37%”">&nbsp; &nbsp; GROUP：</td>
+			<td class="g-box" width="21.9%">
+			    <lable for="UI组" class="ui-label">
+			        <input type="radio" name="group" id="ui">UI组
+			    </lable>
+			    <lable for="前端组" class="fe-label">
+			        <input type="radio" name="group" id="fe">前端组
+			    </lable>
+			</td>
+			<td class="g-box" width="21.9%">
+			    <lable for="程序组" class="be-label">
+			        <input type="radio" name="group" id="be">程序组
+			    </lable>
+			    <lable for="未知" class="x-label">
+			        <input type="radio" name="group" id="x">未知
+			    </lable>
+			</td>
+		</tr>
+		<tr>
+		    <td colspan="3"> 
+		        <p class="tip">&nbsp; &nbsp; YOUR FREESTYLE：</p>
+		        <textarea col="5" placeholder="介绍你自己" class="text" style="width:96%"></textarea>
+		    </td>
+		</tr>
+		<tr>
+		    <td colspan="3">
+		    <br>
+		    </td>
+		</tr>
+		<tr>
+            <td colspan="3" id="submit">
+            <input type="button" value="SEND" onClick="Wopen()" id="smit" style="font-family:Microsoft Yahei;width:80%">
+            </td>
+        </tr>
+
+    </tbody>
+
+</table> 
+
+</body>
+
+</html>
