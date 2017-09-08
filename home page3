@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+<head>
+    <title>首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0,user-scalable=no">
+	<style type="text/css">
+		.content{
+			/*width: 46.86rem;750px*/
+			/*height: 83.1rem;1330px*/
+			background-image: url(./first.jpg);
+			filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+			-moz-background-size: 100% 100%;
+		    background-size: 100% 100%;
+		    overflow-y: hidden;
+		    overflow-x: hidden;
+			margin: auto;
+			z-index: 1;
+		}
+		/*.picture{
+			width: 100%;
+			margin: auto;
+			position: relative;
+			z-index: 2;
+		}*/
+		.image1{
+			width: 100%;
+			height:23%;
+			background:url(top.jpg) no-repeat;
+	filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+		    -moz-background-size: 100% 100%;
+		    background-size: 100% 100%;
+	     	overflow-y: hidden;
+	    	overflow-x: hidden;
+		    
+		}
+		.image2{
+			width: 100%;
+			height:67%;
+			background:url(low.jpg) no-repeat;
+        	filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+	    	-moz-background-size: 100% 100%;
+     		background-size: 100% 100%;
+    		overflow-y: hidden;
+    		overflow-x: hidden;
+		    
+		}
+		.join{
+			width: 100%;
+			height: 15%;
+			position: relative;
+		}
+		a{
+            color: rgb(255,255,255);
+            text-decoration: none;
+            font-family: "Microsoft Yahei";
+            font-size: 4.6rem;/*85px*/
+            float: right;
+		}
+		
+@keyframes slideInLeft {
+            from {
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+        }
+
+            to {
+        transform: translate3d(0, 0, 0);
+        }
+    }
+
+        .slideInLeft {
+        animation-name: slideInLeft; 
+    }
+    /* Safari & Chrome: */
+    @-webkit-keyframes slideInLeft {
+            from {
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+        }
+
+            to {
+        transform: translate3d(0, 0, 0);
+        }
+    }
+
+        .slideInLeft {
+        animation-name: slideInLeft; 
+    }
+    /* Firefox: */
+    @-moz-keyframes slideInLeft {
+            from {
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+        }
+
+            to {
+        transform: translate3d(0, 0, 0);
+        }
+    }
+
+        .slideInLeft {
+        animation-name: slideInLeft; 
+    }
+    /* Opera: */
+    @-o-keyframes slideInLeft {
+            from {
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+        }
+
+            to {
+        transform: translate3d(0, 0, 0);
+        }
+    }
+
+        .slideInLeft {
+        animation-name: slideInLeft; 
+    }
+    .image1,.image2
+    {
+			animation: slideInLeft 3s ease 0s 1;
+            /* Safari & Chrome: */
+            -webkit-animation: slideInLeft 3s ease 0s 1;
+            /* Firefox: */
+            -moz-animation: slideInLeft 3s ease 0s 1;
+            /* Opera: */
+            -o-animation: slideInLeft 3s ease 0s 1;
+		}
+
+
+
+@keyframes flash {
+             from, 50%, to {
+        opacity: 1;
+        }
+
+             25%, 75% {
+        opacity: 0;
+        }
+    }
+
+        .flash {
+        animation-name: flash;
+    }
+    /* Safari & Chrome: */
+    @-webkit-keyframes flash {
+             from, 50%, to {
+        opacity: 1;
+        }
+
+             25%, 75% {
+        opacity: 0;
+        }
+    }
+
+         .flash {
+        animation-name: flash;
+    }
+    /* Firefox: */
+    @-moz-keyframes flash {
+             from, 50%, to {
+        opacity: 1;
+        }
+
+             25%, 75% {
+        opacity: 0;
+        }
+    }
+
+         .flash {
+        animation-name: flash;
+    }
+    /* Opera: */
+    @-o-keyframes flash {
+             from, 50%, to {
+        opacity: 1;
+        }
+
+             25%, 75% {
+        opacity: 0;
+        }
+    }
+
+         .flash {
+        animation-name: flash;  
+    }
+
+		
+		.join{
+			animation: flash 4s 1s infinite;
+            /* Safari & Chrome: */
+            -webkit-animation: flash 4s 1s infinite;
+            /* Firefox: */
+            -moz-animation: flash 4s 1s infinite;
+            /* Opera: */
+            -o-animation: flash 4s 1s infinite;
+		}
+
+	</style>
+</head>
+<body style="height:100%;">
+<div class="content" style="height: 100%;">
+    <!--<div class="picture">-->
+	    <div class="image1">
+	    	<!--<img src="top.jpg"/>-->
+	    </div>
+	    <div class="image2">
+		    <!--<img src="low.jpg"/>-->
+	    </div>
+    <!--</div>-->
+	<div class="join">
+		<a href="file:///Users/mac/Desktop/秋季招新/form.html" title="JOIN US">JOIN US</a>
+	</div>
+</div>
+
+</body>
+</html>
