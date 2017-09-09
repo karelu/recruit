@@ -7,8 +7,8 @@
         .lading1-1{
             position: absolute;
             text-align: left;
-            width: 100%;
-            height: 100%;
+            width: 0px;
+            height: 0px;
             margin: auto;
             opacity: 0;
             -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -72,13 +72,12 @@
     }  
 
         .loading2-2{
-            width: 90px;
-            height: 90px;
-            position: relative;
+            width: 0px;
+            height: 0px;
+            position: absolute;
             margin: 20% auto;
             background-color: rgb(107,107,107);
-            opacity: 0;
-
+            opacity: 0
         }
         .spinner {
             width: 90px;
@@ -358,9 +357,9 @@
           var join1 = document.getElementById("join1");
           join1.className="join";
           var loading1 = document.getElementById("loading1");
-          join1.className="loading1-1";
+          loading1.className="loading1-1";
           var loading2 = document.getElementById("loading2");
-          join1.className="loading2-2";
+          loading2.className="loading2-2";
        }
     </script>
 </head> 
@@ -372,6 +371,7 @@
         </div>
  </section>
 <div id="content1" class="one" style="height: 100%;">
+
 	    <div id="imageone" class="image1-1">	
 	    </div>
 	    <div id="imagetwo" class="image2-2">   
