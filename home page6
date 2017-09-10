@@ -75,7 +75,7 @@
             width: 0px;
             height: 0px;
             position: absolute;
-            margin: 20% auto;
+            margin: 30% auto;
             background-color: rgb(107,107,107);
             opacity: 0
         }
@@ -83,7 +83,7 @@
             width: 90px;
             height: 90px;
             position: relative;
-            margin: 20% auto;
+            margin: 30% auto;
             background-color: rgb(107,107,107);
             -webkit-animation: rotateplane 1.2s infinite ease-in-out;
             animation: rotateplane 1.2s infinite ease-in-out;
@@ -265,8 +265,7 @@
         .slideInLeft {
         animation-name: slideInLeft; 
     }
-    .image1,.image2
-    {
+        .image1{
 			animation: slideInLeft 3s ease 0s 1;
             /* Safari & Chrome: */
             -webkit-animation: slideInLeft 3s ease 0s 1;
@@ -275,6 +274,16 @@
             /* Opera: */
             -o-animation: slideInLeft 3s ease 0s 1;
 		}
+        .image2{
+            animation: slideInLeft 3s ease 1s 1;
+            /* Safari & Chrome: */
+            -webkit-animation: slideInLeft 3s ease 1s 1;
+            /* Firefox: */
+            -moz-animation: slideInLeft 3s ease 1s 1;
+            /* Opera: */
+            -o-animation: slideInLeft 3s ease 1s 1;
+        }
+
 
 
 
