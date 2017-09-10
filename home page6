@@ -275,13 +275,13 @@
             -o-animation: slideInLeft 3s ease 0s 1;
 		}
         .image2{
-            animation: slideInLeft 3s ease 1s 1;
+            animation: slideInLeft 4s ease 0s 1;
             /* Safari & Chrome: */
-            -webkit-animation: slideInLeft 3s ease 1s 1;
+            -webkit-animation: slideInLeft 4s ease 0s 1;
             /* Firefox: */
-            -moz-animation: slideInLeft 3s ease 1s 1;
+            -moz-animation: slideInLeft 4s ease 0s 1;
             /* Opera: */
-            -o-animation: slideInLeft 3s ease 1s 1;
+            -o-animation: slideInLeft 4s ease 0s 1;
         }
 
 
